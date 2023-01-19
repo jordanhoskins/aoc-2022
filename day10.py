@@ -28,7 +28,7 @@ def day_10():
 			crt_line += "#" if len(crt_line) in sprite else "."
 			cyc += 1 
 			signal_str[cyc] = cyc * x
-			if len(crt_line) == 40:		
+			if len(crt_line) == 40:
 				crt.append(crt_line)
 				crt_line = ""
 		x += cmd.value
